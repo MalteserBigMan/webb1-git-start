@@ -1,0 +1,28 @@
+body {
+    color: #121212;
+    background-color:aqua;
+    font-family: sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+nav>ul {
+    list-style-type: none;
+    margin 0;
+    padding: 0;
+
+    display: flex;
+    gap:1rem;
+}
+
+img{
+    max-width:min(80ch, 100vw - 2rem);)
+    height:auto;
+}
+
+.container {
+    max-width: 80ch;
+    margin-inline: auto;
+}
